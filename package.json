@@ -9,7 +9,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "run futuro"
+      "pre-commit": "run futuro",
+      "pre-push": "npm futuro"
     }
   },
   "keywords": [],
