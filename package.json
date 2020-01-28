@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "futuro": "echo \"Fala Andrezeira isso é o futuro!!!\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "run futuro"
+    }
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cryptr": "^6.0.1"
+    "cryptr": "^6.0.1",
+    "husky": "^4.2.1"
   }
 }
